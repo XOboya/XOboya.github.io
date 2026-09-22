@@ -1,0 +1,7 @@
+git clone https://github.com/XOboya/XOboya.github.io.git
+cd XOboya.github.io
+
+git submodule add https://github.com/XOboya/test-hackathon.git test-hackathon
+git add .gitmodules test-hackathon
+git commit -m "Add test-hackathon as a submodule"
+git push
